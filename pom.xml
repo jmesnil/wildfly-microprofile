@@ -44,6 +44,7 @@
         <version.org.wildfly.plugins.maven>1.0.2.Final</version.org.wildfly.plugins.maven>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <version.org.wildfly.build-tools>1.1.8.Final</version.org.wildfly.build-tools>
+        <version.org.wildfly.microprofile.config>1.1.1</version.org.wildfly.microprofile.config>
     </properties>
 
     <scm>
@@ -76,6 +77,12 @@
                 <groupId>org.wildfly</groupId>
                 <artifactId>wildfly-feature-pack</artifactId>
                 <version>${version.org.wildfly}</version>
+                <type>zip</type>
+            </dependency>
+            <dependency>
+                <groupId>org.wildfly</groupId>
+                <artifactId>wildfly-microprofile-config-feature-pack</artifactId>
+                <version>${version.org.wildfly.microprofile.config}</version>
                 <type>zip</type>
             </dependency>
 

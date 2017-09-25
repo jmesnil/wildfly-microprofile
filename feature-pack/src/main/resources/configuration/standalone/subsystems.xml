@@ -8,6 +8,7 @@
         <subsystem>ee.xml</subsystem>
         <subsystem>io.xml</subsystem>
         <subsystem>jaxrs.xml</subsystem>
+        <subsystem>microprofile-config.xml</subsystem>
         <subsystem supplement="web-build">naming.xml</subsystem>
         <subsystem supplement="web-build">security.xml</subsystem>
         <subsystem>undertow.xml</subsystem>
